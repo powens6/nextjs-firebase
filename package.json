@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "npm run build-service-worker && next build",
-		"build-service-worker": "npx esbuild public/auth-service-worker.js --bundle --outfile=public/auth-service-worker.js",
+		"build-service-worker": "npx esbuild public/auth-service-worker.js --bundle --outfile=public/auth-service-worker.js --allow-overwrite",
 		"start": "next start",
 		"lint": "next lint"
 	},
